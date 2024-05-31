@@ -47,7 +47,7 @@ public class Main {
             System.out.println("numero 1 é igual ao dois");
         }
         else{
-            System.out.println("numero dois é maior");
+            System.out.println("numero dois é maior que o 1");
         }
     }
 }
