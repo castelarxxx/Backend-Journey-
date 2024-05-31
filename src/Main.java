@@ -30,6 +30,7 @@ public class Main {
         //lógicos
         boolean verdadeiroOuFalso = true;
         System.out.println(verdadeiroOuFalso);
+        //próximos vamos vendo outros tipos de dados
 
     }
 }
