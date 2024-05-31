@@ -49,5 +49,19 @@ public class Main {
         else{
             System.out.println("numero dois é maior que o 1");
         }
+
+        //SWITCH
+        int numero3 = 18;
+
+         switch (numero3){
+             case  18 :
+                 System.out.println("o numero é 18");
+             break;
+             case 17:
+                 System.out.println("o numero é 17");
+             default :
+                 System.out.println("o numero é desconhecido");
+                 break;
+         }
     }
 }
