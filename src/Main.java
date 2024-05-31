@@ -32,5 +32,22 @@ public class Main {
         System.out.println(verdadeiroOuFalso);
         //próximos vamos vendo outros tipos de dados
 
+
+
+        //Estruturas de Condição
+        //operadores ==, >=, <=, !=
+        // && and ! para estruturas de decisão
+        int numero1 = 10;
+        int numero2 = 16;
+
+        if (numero1 > numero2){
+            System.out.println("numero 1 maior");
+
+        } else if (numero1 == numero2){
+            System.out.println("numero 1 é igual ao dois");
+        }
+        else{
+            System.out.println("numero dois é maior que o 1");
+        }
     }
 }
