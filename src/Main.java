@@ -12,11 +12,11 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.print(txt);
 
-         final String txt2 = "Minha primeira constante em Java";
+        final String txt2 = "Minha primeira constante em Java";
 
-         System.out.print(txt2);
-         
-         //Tipos de dados
+        System.out.print(txt2);
+
+        //Tipos de dados
 
         //numeros
         //numeros inteiros
@@ -33,21 +33,39 @@ public class Main {
         //próximos vamos vendo outros tipos de dados
 
 
-
         //Estruturas de Condição
         //operadores ==, >=, <=, !=
         // && and ! para estruturas de decisão
         int numero1 = 10;
         int numero2 = 16;
 
-        if (numero1 > numero2){
+        if (numero1 > numero2) {
             System.out.println("numero 1 maior");
 
-        } else if (numero1 == numero2){
+        } else if (numero1 == numero2) {
             System.out.println("numero 1 é igual ao dois");
-        }
-        else{
+        } else {
             System.out.println("numero dois é maior que o 1");
         }
+
+        //SWITCH
+        int numero3 = 18;
+
+        switch (numero3) {
+            case 18:
+                System.out.println("o numero é 18");
+                break;
+            case 17:
+                System.out.println("o numero é 17");
+            default:
+                System.out.println("o numero é desconhecido");
+                break;
+        }
+
+        //Estrutura de condição TERNÁRIA
+       String resposta = (numero3 <= 17) ? "é menor de idade" : "é maior de idade";
+        System.out.println(resposta
+        );
     }
+
 }
