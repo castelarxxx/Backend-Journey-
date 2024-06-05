@@ -13,7 +13,10 @@ Testes Unitários: Ferramentas para garantir a qualidade e confiabilidade do có
 
 O projeto contém exemplos de código que demonstram como utilizar as tecnologias mencionadas acima. Alguns exemplos incluem:
 
-Criação de classes Java com anotações Spring Boot.
-Implementação de serviços com lógica de negócio.
-Definição de endpoints REST com mapeamento de URLs.
-Escrita de testes unitários para garantir a funcionalidade do código.
+-Criação de classes Java com anotações Spring Boot.
+
+-Implementação de serviços com lógica de negócio.
+
+-Definição de endpoints REST com mapeamento de URLs.
+
+-Escrita de testes unitários para garantir a funcionalidade do código.
