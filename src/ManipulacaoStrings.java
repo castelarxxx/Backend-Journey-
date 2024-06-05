@@ -27,13 +27,17 @@ public class ManipulacaoStrings {
 //        String variavelSemEspacos = variavel2.trim();
 //        System.out.println(variavelSemEspacos.length());
 
-        String variavel4 = "Hilary Castelar";
-        System.out.println(variavel4.toLowerCase());// minusculo
-        System.out.println(variavel4.toUpperCase());// maiusculo
+        String variavel4 = "banana";
+        System.out.println(variavel4.indexOf("c"));//não existe a letra na variavel, o index of quando não encontrra
+        //referencia ele retorna -1
+
+//        System.out.println(variavel4.toLowerCase());// minusculo
+//        System.out.println(variavel4.toUpperCase());// maiusculo
+
+
     }
 
 }
-
 
 //toLowerCase e to UpperCase
 //Value of converte qual quer tipo de dado em string
