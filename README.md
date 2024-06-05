@@ -3,7 +3,7 @@ Backend-Journey: Uma Jornada em Java, Spring Boot, Orientação a Objetos, Padr�
 
 Introdução
 
-O Backend-Journey é um projeto na minha jornada de aprendizado de desenvolvimento backend, utilizando as seguintes tecnologias:
+O Backend-Journey é um projeto na minha jornada de aprendizado de desenvolvimento backend:
 
 Java: Linguagem de programação orientada a objetos robusta.
 Spring Boot: Framework Java que facilita a criação de aplicações web Spring.
