@@ -2,14 +2,14 @@ public class ManipulacaoStrings {
 
     public static void main (String[] args){
         //String variavel1 = "Hilary CASTELAR";
-        double numero1 = 13.5;
-        String variavelConvertida = String.valueOf(numero1);
-        System.out.println(variavelConvertida.charAt(1));
+       // double numero1 = 13.5;
+       // String variavelConvertida = String.valueOf(numero1);
+      //  System.out.println(variavelConvertida.charAt(1));
         //System.out.println(variavel1.startsWith("Hi"));
 
-        String variavel1 = "Hilary CASTELAR";
-        boolean resultado1 = variavel1.startsWith("Hil");
-        boolean resultado2 = variavel1.startsWith("il",  1);
+       // String variavel1 = "Hilary CASTELAR";
+       // boolean resultado1 = variavel1.startsWith("Hil");
+       // boolean resultado2 = variavel1.startsWith("il",  1);
 
 //        System.out.println(resultado2);
 
@@ -27,14 +27,17 @@ public class ManipulacaoStrings {
 //        String variavelSemEspacos = variavel2.trim();
 //        System.out.println(variavelSemEspacos.length());
 
-        String variavel4 = "banana";
-        System.out.println(variavel4.indexOf("c"));//não existe a letra na variavel, o index of quando não encontrra
+//String variavel4 = "banana";
+       // System.out.println(variavel4.indexOf("c"));//não existe a letra na variavel, o index of quando não encontrra
         //referencia ele retorna -1
+
 
 //        System.out.println(variavel4.toLowerCase());// minusculo
 //        System.out.println(variavel4.toUpperCase());// maiusculo
 
-
+       String variavel5 = "banana";
+       // System.out.println(variavel5.replace("a", "o"));
+        System.out.println(variavel5.substring(1, 3));
     }
 
 }
@@ -46,3 +49,5 @@ public class ManipulacaoStrings {
 //startsWith passa o prefixo //off set aonde verifica se a string que esta sendo manipulado começa com a ocorrencia informada/ tem esse prefixo
 //o ends with verifica se termina
 
+//replace > substitui
+//substring> retorna os indices
