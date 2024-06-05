@@ -1,10 +1,11 @@
 
 Backend-Journey: Uma Jornada em Java, Spring Boot, Orientação a Objetos, Padrões Úteis e Testes Unitários
+
 Introdução
 
 O Backend-Journey é um projeto na minha jornada de aprendizado de desenvolvimento backend, utilizando as seguintes tecnologias:
 
-Java: Linguagem de programação orientada a objetos robusta e popular.
+Java: Linguagem de programação orientada a objetos robusta.
 Spring Boot: Framework Java que facilita a criação de aplicações web Spring.
 Orientação a Objetos (POO): Princípios de design para organizar código de forma eficiente e reutilizável.
 Padrões Úteis: Melhores práticas para escrever código limpo, legível e fácil de manter.
