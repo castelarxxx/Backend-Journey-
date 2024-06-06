@@ -6,12 +6,13 @@ public class Main {
 
 
         {
-            POO Carro = new POO();
-            Carro.modelo = "civic";
-            Carro.marca = "Honda";
-            Carro.cor = "Preto";
-            Carro.ano = 1998;
-            System.out.println(Carro.modelo);
+            POO gol = new POO("Gol", "Volks", "Vermelho", 2000);
+         //   Carro.modelo = "civic";
+           // Carro.marca = "Honda";
+           // Carro.cor = "Preto";
+         //   Carro.ano = 1998;
+           // System.out.println(Carro.modelo);
+            System.out.println(gol.ano);
         }
 
     }
