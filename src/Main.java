@@ -13,6 +13,11 @@ public class Main {
          //   Carro.ano = 1998;
            // System.out.println(Carro.modelo);
             System.out.println(gol.ano);
+            gol.ligar();
+            gol.acelerar("forte");
+            System.out.println(gol.ligado);
+            System.out.println(gol.aceleracao);
+            gol.desligar();
         }
 
     }
