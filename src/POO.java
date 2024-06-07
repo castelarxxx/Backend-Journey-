@@ -1,16 +1,18 @@
 public class POO {
 
-                public String modelo;
+                private String modelo; //encapsulamento
 
-                public String marca;
+                private String marca;
 
-                public String cor;
+                private String cor;
 
                 public int ano;
 
-                 public boolean ligado ;
+                private boolean ligado;
 
-                public int aceleracao ;
+                private int aceleracao;
+
+                private int idade;
 
    public POO(String modelo, String marca, String cor, int ano ){
     this.modelo = modelo;
@@ -19,6 +21,7 @@ public class POO {
     this.ano = ano;
     this.ligado = true;
     this.aceleracao = 0;
+    this.setIdade();
    }
 
    public void ligar (){
@@ -48,5 +51,37 @@ public class POO {
             break;
     }
    }
-}
 
+    public String getModelo() {
+        return modelo;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public String getCor() {
+        return cor;
+    }
+    public int getAno() {
+        return ano;
+    }
+    public boolean getLigado() {
+        return ligado;
+    }
+    public int getAceleracao() {
+        return aceleracao;
+    }
+
+    public void setCor(String cor){
+       this. cor = "cor";
+    }
+    private void setIdade(){
+       this.idade = 2023 - this.ano;
+    }
+    public int getIdade(){
+       return idade;
+    }
+}
+//metodos de encapsulamento get e set
+
+//Neste exemplo, os métodos get (getModelo e getCor) permitem acessar os valores dos atributos privados modelo e cor
+// /enquanto os métodos set (setModelo e setCor) permitem modificar esses valores.

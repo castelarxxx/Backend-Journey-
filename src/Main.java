@@ -12,12 +12,16 @@ public class Main {
            // Carro.cor = "Preto";
          //   Carro.ano = 1998;
            // System.out.println(Carro.modelo);
-            System.out.println(gol.ano);
+            //System.out.println(gol.ano);
             gol.ligar();
             gol.acelerar("forte");
-            System.out.println(gol.ligado);
-            System.out.println(gol.aceleracao);
+            System.out.println(gol.getLigado());
+            System.out.println(gol.getAceleracao());
             gol.desligar();
+            System.out.println(gol.getCor());
+
+            System.out.println(gol.getIdade());
+            gol.setCor("Vermelho");
         }
 
     }
