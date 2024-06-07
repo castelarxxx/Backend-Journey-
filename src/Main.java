@@ -22,6 +22,11 @@ public class Main {
 
             System.out.println(gol.getIdade());
             gol.setCor("Vermelho");
+
+
+          //  pessoa Hilary = new pessoa("Hilary", "5291873737");
+            pessoa Hilary = new Aluno("Hilary", "5291873737");
+            Professor Joao = new Professor("joao", "8934723894892", 10000);
         }
 
     }
