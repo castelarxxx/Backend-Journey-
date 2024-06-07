@@ -25,8 +25,12 @@ public class Main {
 
 
           //  pessoa Hilary = new pessoa("Hilary", "5291873737");
-            pessoa Hilary = new Aluno("Hilary", "5291873737");
+            pessoa Hilary = new Aluno("Hilary", "5291873737");// criando um objeto a partir de uma classe
             Professor Joao = new Professor("joao", "8934723894892", 10000);
+           Hilary.calcularPontos(10);
+           Joao.calcularPontos(30);
+            System.out.println(Hilary.getPontos());
+            System.out.println(Joao.getPontos());
         }
 
     }
