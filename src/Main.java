@@ -33,7 +33,14 @@ public class Main {
             System.out.println(Joao.getPontos());
 
            // System.out.println(Hilary.imprimirSaudacao());//Polimorfismo
-            System.out.println(Joao.imprimirSaudacao());
+         //   System.out.println(Joao.imprimirSaudacao());
+
+         //  Calculadora Calculadora = new Calculadora(); com static não precisa instanciar com new
+            double soma = Calculadora.soma(2,2);
+
+            double subtracao = Calculadora.subtracao(2,2);// com metodos estaticos é assim que acessamos os metodos na classe
+          //System.out.println(Calculadora.soma(10,2));
+           // System.out.println(Calculadora.subtracao(10,2));
         }
 
     }
