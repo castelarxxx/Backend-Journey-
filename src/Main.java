@@ -32,7 +32,7 @@ public class Main {
             System.out.println(Hilary.getPontos());
             System.out.println(Joao.getPontos());
 
-            System.out.println(Hilary.imprimirSaudacao());//Polimorfismo
+           // System.out.println(Hilary.imprimirSaudacao());//Polimorfismo
             System.out.println(Joao.imprimirSaudacao());
         }
 
