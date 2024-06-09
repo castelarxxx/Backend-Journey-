@@ -19,4 +19,7 @@ public class Professor extends pessoa {
         int pontos = minutos * 3;
     // this.setPontos(pontos);
     }
+    public String imprimirSaudacao(){
+        return "Ola professor" + this.getNome();
+    }
 }

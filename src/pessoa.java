@@ -14,6 +14,9 @@ public  abstract class pessoa {// de classe concreta para abstrata
         this.cpf = cpf;
         this.pontos = 0;
     }
+    public String imprimirSaudacao(){
+        return "Ola pessoa" + this.nome;//Polimorfismo
+    }
 
     public String getNome() {
         return nome;
