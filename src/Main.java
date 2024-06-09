@@ -42,6 +42,5 @@ public class Main {
           //System.out.println(Calculadora.soma(10,2));
            // System.out.println(Calculadora.subtracao(10,2));
         }
-
     }
 }
